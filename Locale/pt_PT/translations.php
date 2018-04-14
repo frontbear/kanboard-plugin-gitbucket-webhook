@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'Github commit received' => 'Recebido commit do Github',
-    'Github issue opened' => 'Problema aberto no Github',
-    'Github issue closed' => 'Problema fechado no Github',
-    'Github issue reopened' => 'Problema reaberto no Github',
-    'Github issue assignee change' => 'Alterar assignação ao problema no Githubnge',
-    'Github issue label change' => 'Alterar etiqueta do problema no Github',
-    'Github webhooks' => 'Github webhooks',
-    'Help on Github webhooks' => 'Ajuda para o Github webhooks',
-    'Github issue comment created' => 'Criado comentário ao problema no Github',
-    'Github Issue' => 'Problema no Github',
-    'Commit made by @%s on Github' => 'Commit feito por @%s no Github',
+    'Gitbucket commit received' => 'Recebido commit do Gitbucket',
+    'Gitbucket issue opened' => 'Problema aberto no Gitbucket',
+    'Gitbucket issue closed' => 'Problema fechado no Gitbucket',
+    'Gitbucket issue reopened' => 'Problema reaberto no Gitbucket',
+    'Gitbucket issue assignee change' => 'Alterar assignação ao problema no Gitbucketnge',
+    'Gitbucket issue label change' => 'Alterar etiqueta do problema no Gitbucket',
+    'Gitbucket webhooks' => 'Gitbucket webhooks',
+    'Help on Gitbucket webhooks' => 'Ajuda para o Gitbucket webhooks',
+    'Gitbucket issue comment created' => 'Criado comentário ao problema no Gitbucket',
+    'Gitbucket Issue' => 'Problema no Gitbucket',
+    'Commit made by @%s on Gitbucket' => 'Commit feito por @%s no Gitbucket',
 );
 

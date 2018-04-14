@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'Github commit received' => 'Github: commit dobijen',
-    'Github issue opened' => 'Github: otvoren problem',
-    'Github issue closed' => 'Github: zatvoren problem',
-    'Github issue reopened' => 'Github: ponovo otvoren problem',
-    'Github issue assignee change' => 'Github: izmijenjen izvršioc problema',
-    'Github issue label change' => 'Github: izmjena etikete problema',
-    'Github webhooks' => 'Github webhooks',
-    'Help on Github webhooks' => 'Pomoć na Github webhooks',
-    'Github issue comment created' => 'Github: dodan komentar za problem',
-    'Github Issue' => 'Github problemi',
-    'Commit made by @%s on Github' => 'Commit-ao @%s na Github',
+    'Gitbucket commit received' => 'Gitbucket: commit dobijen',
+    'Gitbucket issue opened' => 'Gitbucket: otvoren problem',
+    'Gitbucket issue closed' => 'Gitbucket: zatvoren problem',
+    'Gitbucket issue reopened' => 'Gitbucket: ponovo otvoren problem',
+    'Gitbucket issue assignee change' => 'Gitbucket: izmijenjen izvršioc problema',
+    'Gitbucket issue label change' => 'Gitbucket: izmjena etikete problema',
+    'Gitbucket webhooks' => 'Gitbucket webhooks',
+    'Help on Gitbucket webhooks' => 'Pomoć na Gitbucket webhooks',
+    'Gitbucket issue comment created' => 'Gitbucket: dodan komentar za problem',
+    'Gitbucket Issue' => 'Gitbucket problemi',
+    'Commit made by @%s on Gitbucket' => 'Commit-ao @%s na Gitbucket',
 );
 

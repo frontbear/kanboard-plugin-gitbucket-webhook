@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'Github commit received' => 'Github commit empfangen',
-    'Github issue opened' => 'Github Fehler geöffnet',
-    'Github issue closed' => 'Github Fehler geschlossen',
-    'Github issue reopened' => 'Github Fehler erneut geöffnet',
-    'Github issue assignee change' => 'Github Fehlerzuständigkeit geändert',
-    'Github issue label change' => 'Github Fehlerkennzeichnung verändert',
-    'Github webhooks' => 'Github-Webhook',
-    'Help on Github webhooks' => 'Hilfe für Github-Webhooks',
-    'Github issue comment created' => 'Kommentar zum Github-Issue hinzugefügt',
-    'Github Issue' => 'Github Issue',
-    'Commit made by @%s on Github' => 'Commit von @%s auf Github',
+    'Gitbucket commit received' => 'Gitbucket commit empfangen',
+    'Gitbucket issue opened' => 'Gitbucket Fehler geöffnet',
+    'Gitbucket issue closed' => 'Gitbucket Fehler geschlossen',
+    'Gitbucket issue reopened' => 'Gitbucket Fehler erneut geöffnet',
+    'Gitbucket issue assignee change' => 'Gitbucket Fehlerzuständigkeit geändert',
+    'Gitbucket issue label change' => 'Gitbucket Fehlerkennzeichnung verändert',
+    'Gitbucket webhooks' => 'Gitbucket-Webhook',
+    'Help on Gitbucket webhooks' => 'Hilfe für Gitbucket-Webhooks',
+    'Gitbucket issue comment created' => 'Kommentar zum Gitbucket-Issue hinzugefügt',
+    'Gitbucket Issue' => 'Gitbucket Issue',
+    'Commit made by @%s on Gitbucket' => 'Commit von @%s auf Gitbucket',
 );
 

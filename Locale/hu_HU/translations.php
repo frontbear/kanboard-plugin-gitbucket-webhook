@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'Github commit received' => 'Github commit érkezett',
-    'Github issue opened' => 'Github issue nyitás',
-    'Github issue closed' => 'Github issue zárás',
-    'Github issue reopened' => 'Github issue újranyitva',
-    'Github issue assignee change' => 'Github issue felelős változás',
-    'Github issue label change' => 'Github issue címke változás',
-    'Github webhooks' => 'Github webhooks',
-    'Help on Github webhooks' => 'Github Webhook súgó',
-    'Github issue comment created' => 'Github issue megjegyzés létrehozva',
-    'Github Issue' => 'Github issue',
-    // 'Commit made by @%s on Github' => '',
+    'Gitbucket commit received' => 'Gitbucket commit érkezett',
+    'Gitbucket issue opened' => 'Gitbucket issue nyitás',
+    'Gitbucket issue closed' => 'Gitbucket issue zárás',
+    'Gitbucket issue reopened' => 'Gitbucket issue újranyitva',
+    'Gitbucket issue assignee change' => 'Gitbucket issue felelős változás',
+    'Gitbucket issue label change' => 'Gitbucket issue címke változás',
+    'Gitbucket webhooks' => 'Gitbucket webhooks',
+    'Help on Gitbucket webhooks' => 'Gitbucket Webhook súgó',
+    'Gitbucket issue comment created' => 'Gitbucket issue megjegyzés létrehozva',
+    'Gitbucket Issue' => 'Gitbucket issue',
+    // 'Commit made by @%s on Gitbucket' => '',
 );
 

@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'Github commit received' => 'Github commit received',
-    'Github issue opened' => 'Github issue opened',
-    'Github issue closed' => 'Github issue closed',
-    'Github issue reopened' => 'Github issue reopened',
-    'Github issue assignee change' => 'Github issue assignee change',
-    'Github issue label change' => 'Github issue label change',
-    'Github webhooks' => 'Github webhooks',
-    'Help on Github webhooks' => 'Ajuda sobre os webhooks do GitHub',
-    'Github issue comment created' => 'Github issue comment created',
-    'Github Issue' => 'Github Issue',
-    'Commit made by @%s on Github' => 'Commit feito por @%s no Github',
+    'Gitbucket commit received' => 'Gitbucket commit received',
+    'Gitbucket issue opened' => 'Gitbucket issue opened',
+    'Gitbucket issue closed' => 'Gitbucket issue closed',
+    'Gitbucket issue reopened' => 'Gitbucket issue reopened',
+    'Gitbucket issue assignee change' => 'Gitbucket issue assignee change',
+    'Gitbucket issue label change' => 'Gitbucket issue label change',
+    'Gitbucket webhooks' => 'Gitbucket webhooks',
+    'Help on Gitbucket webhooks' => 'Ajuda sobre os webhooks do GitHub',
+    'Gitbucket issue comment created' => 'Gitbucket issue comment created',
+    'Gitbucket Issue' => 'Gitbucket Issue',
+    'Commit made by @%s on Gitbucket' => 'Commit feito por @%s no Gitbucket',
 );
 

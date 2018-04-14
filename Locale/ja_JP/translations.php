@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'Github commit received' => 'Github のコミットを受け取った',
-    'Github issue opened' => 'Github Issue がオープンされた',
-    'Github issue closed' => 'Github Issue がクローズされた',
-    'Github issue reopened' => 'Github Issue が再オープンされた',
-    'Github issue assignee change' => 'Github Issue の担当が変更された',
-    'Github issue label change' => 'Github のラベルが変更された',
-    'Github webhooks' => 'Github Webhook',
-    'Help on Github webhooks' => 'Github webhook のヘルプ',
-    'Github issue comment created' => 'Github Issue コメントが作られました',
-    'Github Issue' => 'Github Issue',
-    // 'Commit made by @%s on Github' => '',
+    'Gitbucket commit received' => 'Gitbucket のコミットを受け取った',
+    'Gitbucket issue opened' => 'Gitbucket Issue がオープンされた',
+    'Gitbucket issue closed' => 'Gitbucket Issue がクローズされた',
+    'Gitbucket issue reopened' => 'Gitbucket Issue が再オープンされた',
+    'Gitbucket issue assignee change' => 'Gitbucket Issue の担当が変更された',
+    'Gitbucket issue label change' => 'Gitbucket のラベルが変更された',
+    'Gitbucket webhooks' => 'Gitbucket Webhook',
+    'Help on Gitbucket webhooks' => 'Gitbucket webhook のヘルプ',
+    'Gitbucket issue comment created' => 'Gitbucket Issue コメントが作られました',
+    'Gitbucket Issue' => 'Gitbucket Issue',
+    // 'Commit made by @%s on Gitbucket' => '',
 );
 
