@@ -1,12 +1,12 @@
 <?php
 
-namespace Kanboard\Plugin\GithubWebhook;
+namespace Kanboard\Plugin\GitbucketWebhook;
 
 use Kanboard\Core\Base;
 use Kanboard\Event\GenericEvent;
 
 /**
- * Github Webhook
+ * Gitbucket Webhook
  *
  * @author   Frederic Guillot
  */
@@ -45,11 +45,11 @@ class WebhookHandler extends Base
     }
 
     /**
-     * Parse Github events
+     * Parse Gitbucket events
      *
      * @access public
-     * @param  string  $type      Github event type
-     * @param  array   $payload   Github event
+     * @param  string  $type      Gitbucket event type
+     * @param  array   $payload   Gitbucket event
      * @return boolean
      */
     public function parsePayload($type, array $payload)
@@ -102,7 +102,7 @@ class WebhookHandler extends Base
                     'task_id' => $task_id,
                     'commit_message' => $commit['message'],
                     'commit_url' => $commit['url'],
-                    'comment' => $commit['message']."\n\n[".t('Commit made by @%s on Github', $commit['author']['username']).']('.$commit['url'].')'
+                    'comment' => $commit['message']."\n\n[".t('Commit made by @%s on Gitbucket', $commit['author']['username']).']('.$commit['url'].')'
                 ) + $task)
             );
         }
@@ -168,7 +168,7 @@ class WebhookHandler extends Base
             $event = array(
                 'project_id' => $this->project_id,
                 'reference' => $payload['comment']['id'],
-                'comment' => $payload['comment']['body']."\n\n[".t('By @%s on Github', $payload['comment']['user']['login']).']('.$payload['comment']['html_url'].')',
+                'comment' => $payload['comment']['body']."\n\n[".t('By @%s on Gitbucket', $payload['comment']['user']['login']).']('.$payload['comment']['html_url'].')',
                 'user_id' => ! empty($user) ? $user['id'] : 0,
                 'task_id' => $task['id'],
             );
@@ -197,7 +197,7 @@ class WebhookHandler extends Base
             'project_id' => $this->project_id,
             'reference' => $issue['number'],
             'title' => $issue['title'],
-            'description' => $issue['body']."\n\n[".t('Github Issue').']('.$issue['html_url'].')',
+            'description' => $issue['body']."\n\n[".t('Gitbucket Issue').']('.$issue['html_url'].')',
         );
 
         $this->dispatcher->dispatch(

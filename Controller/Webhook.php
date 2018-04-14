@@ -1,9 +1,9 @@
 <?php
 
-namespace Kanboard\Plugin\GithubWebhook\Controller;
+namespace Kanboard\Plugin\GitbucketWebhook\Controller;
 
 use Kanboard\Controller\BaseController;
-use Kanboard\Plugin\GithubWebhook\WebhookHandler;
+use Kanboard\Plugin\GitbucketWebhook\WebhookHandler;
 
 /**
  * Webhook Controller
@@ -14,7 +14,7 @@ use Kanboard\Plugin\GithubWebhook\WebhookHandler;
 class Webhook extends BaseController
 {
     /**
-     * Handle Github webhooks
+     * Handle Gitbucket webhooks
      *
      * @access public
      */

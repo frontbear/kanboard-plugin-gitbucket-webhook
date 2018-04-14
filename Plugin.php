@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\GithubWebhook;
+namespace Kanboard\Plugin\GitbucketWebhook;
 
 use Kanboard\Core\Plugin\Base;
 use Kanboard\Core\Security\Role;
@@ -19,8 +19,8 @@ class Plugin extends Base
         $this->actionManager->getAction('\Kanboard\Action\TaskCreation')->addEvent(WebhookHandler::EVENT_ISSUE_OPENED);
         $this->actionManager->getAction('\Kanboard\Action\TaskOpen')->addEvent(WebhookHandler::EVENT_ISSUE_REOPENED);
 
-        $this->template->hook->attach('template:project:integrations', 'GithubWebhook:project/integrations');
-        $this->route->addRoute('/webhook/github/:project_id/:token', 'Webhook', 'handler', 'GithubWebhook');
+        $this->template->hook->attach('template:project:integrations', 'GitbucketWebhook:project/integrations');
+        $this->route->addRoute('/webhook/github/:project_id/:token', 'Webhook', 'handler', 'GitbucketWebhook');
         $this->applicationAccessMap->add('Webhook', 'handler', Role::APP_PUBLIC);
     }
 
@@ -28,23 +28,23 @@ class Plugin extends Base
     {
         Translator::load($this->languageModel->getCurrentLanguage(), __DIR__.'/Locale');
 
-        $this->eventManager->register(WebhookHandler::EVENT_COMMIT, t('Github commit received'));
-        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_OPENED, t('Github issue opened'));
-        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_CLOSED, t('Github issue closed'));
-        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_REOPENED, t('Github issue reopened'));
-        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_ASSIGNEE_CHANGE, t('Github issue assignee change'));
-        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_LABEL_CHANGE, t('Github issue label change'));
-        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_COMMENT, t('Github issue comment created'));
+        $this->eventManager->register(WebhookHandler::EVENT_COMMIT, t('Gitbucket commit received'));
+        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_OPENED, t('Gitbucket issue opened'));
+        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_CLOSED, t('Gitbucket issue closed'));
+        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_REOPENED, t('Gitbucket issue reopened'));
+        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_ASSIGNEE_CHANGE, t('Gitbucket issue assignee change'));
+        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_LABEL_CHANGE, t('Gitbucket issue label change'));
+        $this->eventManager->register(WebhookHandler::EVENT_ISSUE_COMMENT, t('Gitbucket issue comment created'));
     }
 
     public function getPluginName()
     {
-        return 'Github Webhook';
+        return 'Gitbucket Webhook';
     }
 
     public function getPluginDescription()
     {
-        return t('Bind Github webhook events to Kanboard automatic actions');
+        return t('Bind Gitbucket webhook events to Kanboard automatic actions');
     }
 
     public function getPluginAuthor()

@@ -2,7 +2,7 @@
 
 require_once 'tests/units/Base.php';
 
-use Kanboard\Plugin\GithubWebhook\Plugin;
+use Kanboard\Plugin\GitbucketWebhook\Plugin;
 
 class PluginTest extends Base
 {
